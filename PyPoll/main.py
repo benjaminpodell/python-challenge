@@ -23,7 +23,7 @@ with open(election_data, newline = "") as csvfile:
     vote_list = []
     percent_list = []
 
-    #creates for loop reading each row in csv reader
+    #Creates for loop reading each row in csv reader
     for row in csvreader:
         
         #Calculates the Total Vote Count
